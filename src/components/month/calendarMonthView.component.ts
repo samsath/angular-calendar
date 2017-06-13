@@ -140,6 +140,10 @@ export class CalendarMonthViewComponent implements OnChanges, OnInit, OnDestroy 
    * A custom template to use to replace the day cell
    */
   @Input() cellTemplate: TemplateRef<any>;
+  /**
+  * A custome input to add any data binding to the system
+  */
+  @Input() extra: any;
 
   /**
    * A custom template to use to replace the day cell
